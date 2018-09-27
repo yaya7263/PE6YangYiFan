@@ -28,6 +28,17 @@ public:
 
 };
 
+class Yamcha : public Animal {
+public:
+	Yamcha():
+	Animal("kamekameha")
+	{}
+
+
+	int GetPower() { return 10; };
+
+};
+
 // Define your animals here
 
 class bluebird : public Animal {
